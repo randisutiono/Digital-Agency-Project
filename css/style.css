@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    opacity: .8;
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-brand span {
+    color: #eee !important;
+    padding-left: 10px;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    font-size: 14px;
+    color: #eee !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #eee;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+/* Akhir Navbar */
+
+/* Banner */
+#banner {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    color: #eee !important;
+    padding: 5%;
+    opacity: .8;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+#banner .img-play {
+    width: 45px;
+    margin: 15px;
+}
+
+#banner a {
+    text-decoration: none;
+    color: #eee !important;
+}
+
+#banner .img-fluid {
+    opacity: .7;
+}
+
+.banner-img {
+    width: 100%;
+    opacity: .8;
+}
+
+/* Akhir Banner */
+
+/* Services */
+#services {
+    padding: 80px 0;
+}
+
+.title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    display: block;
+    background-color: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(8px);
+}
+
+.services {
+    padding: 20px;
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services h4 {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+@media screen and (max-width: 770px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .title::before {
+        transform: translateY(50px);
+    }
+
+    .title::after {
+        transform: translateY(6px);
+    }
+}
+
+/* Akhir Services */
+
+/* About */
+#about {
+    background-color: rgba(187, 185, 185, 0.37);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+/* Akhir About */
+
+/* Testimonial */
+#testimonials {
+    margin: 100px 0;
+}
+
+.testimonial {
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-detail {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* Akir Testimonial */
+
+/* Social Media */
+#social-media {
+    background-color: #eee;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: .6s;
+    margin: 0 10px;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/* Akhir Social Media */
+
+/* Footer */
+#footer {
+    background: linear-gradient(to right, #a517ba, #5f1782);
+    opacity: .7;
+    color: #fff;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    opacity: .7;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box h4 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer-box p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    background: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr {
+    background-color: #fff;
+}
+
+.copyright {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Alhir Footer */
